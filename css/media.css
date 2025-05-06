@@ -1,0 +1,106 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /* banner part start */
+    .sn-sec-padding{
+        padding: 80px 0;
+    }
+    .sn-banner-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sn-banner-img{
+        order: -1;
+    }
+    .sn-banner-img img{
+        width: 100%;
+    }
+    .sn-banner-text h1{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    /* banner part end */
+
+    /* problem part start */
+    .sn-com-heading{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    /* problem part end */
+
+    /* soluation part start */
+    .sn-soluation-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sn-single-soluation,
+    .sn-pricing-box{
+        padding: 40px 30px;
+    }
+    .sn-single-soluation h3,
+    .sn-how-work-text h3,
+    .sn-pricing-box-top h3{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .sn-slouation-top{
+        margin-bottom: 40px;
+    }
+    /* soluation part end */
+
+    /* how work part start */
+    .sn-single-how-work{
+        padding: 30px 20px;
+        gap: 15px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sn-ready p br{
+        display: none;
+    }
+    /* how work part end */
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* banner part start */
+    .sn-ready p br{
+        display: none;
+    }
+    .sn-banner-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sn-banner-img{
+        order: -1;
+    }
+    .sn-banner-img img{
+        width: 100%;
+    }
+    /* banner part end */
+
+    /* soluation part start */
+    .sn-soluation-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* soluation part end */
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* banner part start */
+    .sn-banner-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sn-banner-img{
+        order: -1;
+    }
+    .sn-banner-img img{
+        width: 100%;
+    }
+    /* banner part end */
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/*Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+
+/*Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
